@@ -23,7 +23,7 @@ end
 text = ENV['TM_SELECTED_TEXT']
 indent = text[/^\s*/]
 tab = make_tab()
-text = text.to_a.map() { |l| tab + l }
+text = text.lines.map() { |l| tab + l }
 
 puts indent + "try"
 print e_sn(text.join().chomp() + "\n")
