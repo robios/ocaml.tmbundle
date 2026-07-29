@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Language Server</string>
+	<key>scope</key>
+	<string>source.ocaml</string>
+	<key>settings</key>
+	<dict>
+		<key>lspCommand</key>
+		<string>ocamllsp</string>
+	</dict>
+	<key>uuid</key>
+	<string>D35DE5DD-0707-47DC-BF51-7EAFECEC71F7</string>
+</dict>
+</plist>
